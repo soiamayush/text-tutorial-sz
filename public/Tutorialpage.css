@@ -23,9 +23,11 @@ button {
   align-items: center;
   width: 100%;
   height: 60%;
-  background-image: url("https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background: url("https://img.freepik.com/premium-photo/education-distance-learning-e-learning-online-learning-are-all-types-personal-development_27634-789.jpg?size=626&ext=jpg&ga=GA1.2.1687540312.1675509732&semt=sph");
   background-size: 180%;
-  background-position: center;
+  background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
   transition: 0.5s;
 }
 
@@ -42,7 +44,6 @@ button {
   color: #f9f9f9;
   font-size: 18px;
   font-family: inherit;
-  cursor: pointer;
 }
 
 .container {
