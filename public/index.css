@@ -167,7 +167,7 @@ body {
 }
 
 section {
-  padding: 30px 15%;
+  padding: 0px 15%;
 }
 
 @media (width <= 720px) {
@@ -289,10 +289,9 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 98vw;
   height: 400px;
   border-radius: 16px;
-  background: url("bg.webp");
   background-size: 110%;
   background-position: center;
   transition: 0.5s;
@@ -300,7 +299,8 @@ body {
 }
 
 .card h1 {
-  font-size: 50px;
+  font-size: 1.5rem;
+  text-align: center;
   font-weight: bold;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
